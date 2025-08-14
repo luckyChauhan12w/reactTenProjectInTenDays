@@ -1,5 +1,4 @@
 import React from "react";
-import HorizontalWeatherCard from "./HorizontalWeatherCard";
 
 const CurentWeatherDisplay = () => {
   const [isCelsius, setIsCelsius] = React.useState(true);
