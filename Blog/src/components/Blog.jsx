@@ -45,7 +45,10 @@ const Blog = () => {
                   <div className="flex gap-2">
                     {e.tags.map((tags) => {
                       return (
-                        <p className="bg-[#182332] text-[#D1D5DC] py-1 px-3 rounded-full text-xs">
+                        <p
+                          key={tags}
+                          className="bg-[#182332] text-[#D1D5DC] py-1 px-3 rounded-full text-xs"
+                        >
                           {tags}
                         </p>
                       );
