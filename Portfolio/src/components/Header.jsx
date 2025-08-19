@@ -1,4 +1,4 @@
-export default function Header({ darkMode, setDarkMode }) {
+export default function Header() {
   return (
     <header className="fixed w-full z-10 bg-white dark:bg-gray-800 shadow-md">
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
@@ -34,13 +34,6 @@ export default function Header({ darkMode, setDarkMode }) {
           >
             Contact
           </a>
-
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700"
-          >
-            {darkMode ? "☀️" : "🌙"}
-          </button>
         </div>
       </nav>
     </header>

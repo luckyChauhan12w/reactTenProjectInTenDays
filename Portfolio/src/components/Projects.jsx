@@ -1,30 +1,30 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-commerce Platform",
+      title: "Netflix Clone",
       description:
-        "A full-featured online store with product listings, cart functionality, and secure checkout.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+        "A frontend clone of Netflix with movie posters, categories, and a responsive UI. Data is fetched from TMDB API (or static dataset).",
+      technologies: ["React", "Tailwind CSS", "TMDB API"],
       image:
-        "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80",
       link: "#",
     },
     {
-      title: "Task Management App",
+      title: "Weather Forecast App",
       description:
-        "A productivity application for organizing tasks with drag-and-drop functionality and team collaboration.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
+        "A simple weather forecast application that displays weather details using static JSON data. Built to practice API integration and UI design.",
+      technologies: ["React", "Tailwind CSS"],
       image:
-        "https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80",
       link: "#",
     },
     {
-      title: "Social Media Dashboard",
+      title: "YouTube Clone",
       description:
-        "Analytics dashboard for social media metrics with real-time data visualization.",
-      technologies: ["Next.js", "Chart.js", "Tailwind CSS"],
+        "A frontend YouTube clone with video cards, categories, and a responsive design to mimic the real platform UI.",
+      technologies: ["React", "Tailwind CSS"],
       image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80",
+        "https://images.unsplash.com/photo-1588702547919-26089e690ecc?ixlib=rb-4.0.3&auto=format&fit=crop&w=869&q=80",
       link: "#",
     },
   ];

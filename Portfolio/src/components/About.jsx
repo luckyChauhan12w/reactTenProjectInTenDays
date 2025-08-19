@@ -44,14 +44,14 @@ export default function About() {
                   Education
                 </h4>
                 <p className="text-gray-600 dark:text-gray-300">
-                  B.Tech in Computer Science
+                  Bachelor of Computer Applications (BCA)
                 </p>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
-                  ABC University, 2020
+                  DCRUST, Sonipat
                 </p>
               </div>
 
-              <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md flex-1 min-w-[200px]">
+              {/* <div className="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-md flex-1 min-w-[200px]">
                 <h4 className="font-bold text-gray-800 dark:text-white mb-2">
                   Experience
                 </h4>
@@ -61,7 +61,7 @@ export default function About() {
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
                   XYZ Company, 2021-Present
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
